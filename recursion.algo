@@ -1,0 +1,30 @@
+/*ecrire un algorithme : Nom : Est un palindrome.  
+Description :  
+Teste si un mot est un palindrome. Un mot est palindrome s'il peut être lu 
+de gauche à droite ou de droite à gauche : gag ; kayak ; php ; radar ;....Instructions :
+Décomposition du traitement : on compare les caractères situés aux extrémités du mot :
+Si égalité on teste le reste du mot
+Si différence on arrête
+Condition d'arrêt : un mot vide ou un mot contenant un seul caractère est un palindrome.*/
+
+Algorithme palindrome
+
+Fonction Palindrome prenant en entrée un mot :
+  Si la longueur du mot est inférieure ou égale à 1 :
+    Retourner vrai
+  Sinon :
+    Si le premier caractère du mot est différent du dernier caractère du mot :
+      Retourner faux
+    Sinon :
+      Retourner Palindrome avec le mot sans son premier et dernier caractère
+
+Fin de la fonction EstPalindrome
+
+Pour tester si un mot est un palindrome :
+  Demander à l'utilisateur de saisir un mot
+  Si "EstPalindrome" avec le mot retoure vrai :
+    Afficher "Le mot est un palindrome"
+  Sinon :
+    Afficher "Le mot n'est pas un palindrome"
+
+Fin de l'algorithme
